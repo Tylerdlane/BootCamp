@@ -1,0 +1,57 @@
+body {
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+/* This takes away the bulleet points from the ul */
+ul{
+    list-style-type: none;
+}
+li{
+    display: block;
+    float: left;
+}
+li a{
+    display: block;
+    width: 300px;
+    height: 70px;
+    background-color: darkslateblue;
+    border: 2px red solid;
+    color: white;
+    /* Gets rid of underline */
+    text-decoration: none;
+    padding: 5px;
+}
+ li ul{
+    display: none;
+ }
+ li:hover a{
+    background-color: lightblue;
+    color: black;
+ }
+ /* Tragets element with class = hidden that is immediate sibling of an <a> which is a descendent of <li> which a descedent of a <ul> when the <a> tag is being hovered over */
+ ul li a:hover + .hidden {
+    display: block;
+ }
+
+ li ul li {
+    /* Makes sub menu stacked on top of each other */
+    display: block;
+    float: none;
+ }
+  
+ li:hover ul a{
+    background-color: lavender;
+    color: orange;
+    height: 70px;
+    /* Vertically Centers the line */
+    line-height: 70px;
+ }
+ 
+ ul li a:hover + .hidden, .hidden:hover{
+    display: block;
+ }
+
+ li:hover ul a:hover {
+    background-color: lightgreen;
+    color: deeppink;
+ }

@@ -1,0 +1,10 @@
+.friends {
+padding: 1em;
+margin: .5em 0 0 40em;
+background-color: #134b41;
+color: #31027c;
+text-align: center;
+display: flex;
+justify-content: center;
+border-radius: 50px;
+}

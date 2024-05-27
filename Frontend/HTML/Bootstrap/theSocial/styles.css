@@ -1,0 +1,64 @@
+button{
+    box-shadow:2px 2px 4px rgba(0,0,0,0.2);
+}
+.container img{
+    display:flex;
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.carousel-caption{
+    display: block;
+    position: absolute;
+    padding-bottom: 15rem;
+    padding-right: 50rem;
+    margin-left: 10rem;
+    color: #fff;
+}
+.victory{
+margin-top: 4em;
+}
+.card{
+    border: none;
+}
+
+.skies{
+    background-color: rgb(36, 36, 36);
+    height: 28.5em;
+    margin-top: 10%;
+}
+.about2{
+    position: relative;
+    left: 53%;
+    top: 2em;
+    max-height: 25em;
+    max-width: 30em;
+}
+.about3{
+    padding-top: 5%;
+    padding-left: 10%;
+    max-height: 50em;
+    max-width: 40em;
+}
+.strike{
+    width: 35em;
+    margin-top: 4em;
+    margin-left: 4em;
+    }
+    footer{
+        background-color: #263238;  
+        font-size: 18px;
+        margin-top: 75px;
+        text-align: center;
+        position: relative;
+        bottom: -5px;
+        height: 100px;
+        width: 100%;
+        line-height: 10px;
+      }
+      .whiteLogo{
+        
+        height: 2em;
+      }

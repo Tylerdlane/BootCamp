@@ -1,0 +1,38 @@
+* {
+  background-color: rgb(0, 0, 0);
+  margin: 0 auto;
+}
+
+body{
+  background-color: grey;
+}
+.btn {
+ background-color: white;
+}
+.btn-load{
+  margin: 10px auto;
+}
+h1 {
+  color: white;
+}
+
+.container {
+  border: white solid 3px;
+  display: inline-block;
+  margin: 0 auto;
+}
+.gif-img{
+  display: inline-flex;
+}
+img{
+  height: 200px;
+  margin: 10px auto;
+}
+.img-box {
+margin: 10px auto;
+}
+
+p {
+  color: white;
+}
+

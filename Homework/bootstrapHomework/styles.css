@@ -1,0 +1,39 @@
+body{
+margin:0;
+padding:0;
+}
+
+.container{
+    margin-left: 2em;
+    padding:0;
+}
+
+.container header{
+ 
+    display: flex;
+    justify-content: end;
+    margin-left:2em;
+    padding-right: 3em;
+    padding-bottom: 0.25em;
+    padding-top: 0.25em;
+}
+.container img{
+    display:flex;
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.carousel-caption{
+    display: block;
+    position: absolute;
+    left: 25%;
+    padding-bottom: 19.25rem;
+    color: #fff;
+}
+.logo{
+    position: relative;
+    right: 18.5em;
+    top: 0.5em;
+}

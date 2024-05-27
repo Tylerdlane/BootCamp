@@ -1,0 +1,142 @@
+body {
+    font-family: 'Oswald', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Roboto', sans-serif;
+background-color: #eaf0f2;
+}
+
+
+#logo{
+    text-align: end;
+}
+
+li {
+    display:block;
+    height:auto;
+    width:auto;
+    position: relative;
+    float: left;
+}
+
+.navBar li a{
+    color: whitesmoke;
+    font-size: 25px;
+    background-color: #263238;
+    height: 75px;
+    width: 175px;
+    display: block;
+    text-align: center;
+    line-height: 75px;
+    text-decoration: inherit;
+
+}
+
+.navBar li a:hover{
+    background: #CFD8DC;
+    color: rgb(54, 54, 54);
+    transition: .6s;
+
+}
+
+.navBar li:hover ul a:hover{
+    background: #CFD8DC;
+    color: rgb(54, 54, 54);
+    transition: .6s;
+
+}
+
+ ul.hidden li a{
+    color: whitesmoke;
+    display: block;
+    font-size: 18px;
+    background-color: #263238;
+    height: 45px;
+    width: 145px;
+    padding: 15px 20px 15px 20px;
+    text-align: center; 
+    line-height: 45px;
+    text-decoration: none;
+    margin-left: -50px;
+
+}
+
+
+li ul {
+    display:none;
+}
+
+
+ul.navBar li a:hover + .hidden{
+display: block;
+}
+
+li ul li {
+    display: block;
+    float: none;
+}
+
+ul li a:hover + .hidden, .hidden:hover{
+    display: block;
+
+ }
+
+footer{
+  background-color: #263238;  
+  font-size: 18px;
+  padding: 25px;
+  margin-top: 75px;
+  text-align: center;
+  position: fixed;
+  bottom: -5px;
+  left: 50px;
+  height: 100px;
+  width: 100%;
+  line-height: 10px;
+}
+div#newsFoot{
+    font-size: 28px;
+    color: #b0bec5;
+}
+div#copyNews{
+    font-size: 16px;
+    color: #b0bec5;
+}
+div.navFoot a{
+    color: white;
+    text-decoration: none;
+}
+div.navFoot a:hover {
+    color: #cfd8dc
+}
+img{
+    width: 50%;
+    height: 50%;
+position: absolute;
+bottom: 200px;
+left: 50px;
+z-index: -1;
+}
+
+div#title{
+    font-size: large;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+
+}
+
+i {
+    font-size: 42px;
+    padding: 15px 35px 15px 35px;
+    height: 60px;
+    width: 50px;
+    line-height: 35px;
+    position: absolute;
+    top: 20px;
+    left: -25px;
+}
+
+
+#title{
+    z-index: -1;
+}

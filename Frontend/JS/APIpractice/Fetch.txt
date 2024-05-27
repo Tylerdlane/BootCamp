@@ -1,0 +1,9 @@
+const endpoint = ' '
+fetch(endpoint)
+.then(response => {
+    response.json()
+})
+.then(data => {
+
+})
+.catch()

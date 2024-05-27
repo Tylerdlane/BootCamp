@@ -1,0 +1,37 @@
+body{
+    background-color: limegreen;
+    /* reset */
+    margin:0;
+    padding:0;
+}
+
+.sky{
+    background-color: skyblue;
+    width: 80vmin;
+    height: 80vmin;
+    /* only works for block elements */
+     /* margin: auto; */
+    position: relative;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%,-50%);
+    border-radius: 5%;
+    text-align: center;
+    line-height: 10vmin;
+
+    
+}
+
+.cloud{
+    background-color: #eee;
+    width: 60vmin;
+    height: 60vmin;
+    /* margin: auto; */
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    line-height: 60vmin;
+    border-radius: 50%;
+}

@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  gap: 4rem;
+  padding: 0 1rem;
+  list-style: none;
+}
+
+ul a {
+  color:white
+}

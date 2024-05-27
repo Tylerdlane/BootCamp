@@ -1,0 +1,29 @@
+h1{
+
+   border:red 5px solid; 
+}
+/* The . is the class selector */
+.cat{
+    background-color: black;
+}
+/* The # is the ID selcetor */
+#dog{
+    width: 25%;
+color: white;
+}
+
+#mouse{
+    width: 200px;
+    color: yellow;
+    border: blue dashed 5px;
+}
+
+#bird{
+    color: lightgreen;
+    border: green ridge 5px;
+    /* This will override the class backgroud color */
+    background-color: rgba(255,0,0,0.75);
+    /* the vw(viewer-width) is the perferred method */
+    width: 50vw;
+
+}

@@ -1,0 +1,21 @@
+button {
+    color: white;
+    background-color: #5c6bc0;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    margin:auto;
+    display: block;
+
+}
+
+button:hover {
+    
+    background-color: #303f9f;
+}
+
+button:active {
+    box-shadow: 0 0 6px black;
+}
+

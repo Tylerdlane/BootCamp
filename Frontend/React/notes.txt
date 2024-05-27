@@ -1,0 +1,14 @@
+Parent Component
+// Passing the prop
+
+function ParentComponent() {
+  const greeting = "Hello from Parent!";
+  return <ChildComponent greeting={greeting} />;
+}
+
+Child Component
+// Reciving the prop
+
+function ChildComponent(props) {
+  return <p>{props.greeting}</p>;
+}

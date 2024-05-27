@@ -1,0 +1,24 @@
+/* Assign the body of the doc to a new background color, text color, and centering all text */
+body {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+/* Centering the div and having them on the same line*/
+div {
+  display: inline-block;
+  padding: 5px;
+  margin: 0 auto;
+}
+/* Setting the images size down to 150px */
+img {
+  width: 150px;
+}
+/* Created a className="border" on the components div and set a border with a box shadow */
+.border{
+  margin: 5px;
+  border: #fff solid 2px;
+  border-radius: 5%;
+  box-shadow: 1px 1px;
+}
+

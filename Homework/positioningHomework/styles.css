@@ -1,0 +1,111 @@
+#one {
+    background-color: red;
+    width: 500px;
+    height: 225px;
+    text-align: center;
+    border: 5px solid black;
+    position: absolute;
+}
+
+#two {
+    background-color: yellow;
+    width: 250px;
+    height: 90px;
+    text-align: center;
+    border: 5px solid black;
+    position: absolute;
+    bottom: 445px;
+    left: 574px;
+}
+
+#four {
+    background-color: white;
+    width: 310px;
+    height: 45px;
+    text-align: center;
+    border: 5px solid black;
+    position: absolute;
+    bottom: 720px;
+    left: 514px;
+}
+
+#three {
+    background-color: green;
+    width: 255px;
+    height: 90px;
+    text-align: center;
+    border: 5px solid black;
+    position: absolute;
+    bottom: 445px;
+    left: 8px;
+    z-index: 2;
+}
+
+#five {
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    border: 5px solid black;
+    position: absolute;
+    bottom: 445px;
+    left: 268px;
+}
+
+#six {
+    background-color: white;
+    width: 202px;
+    height: 90px;
+    text-align: center;
+    border: 5px solid black;
+    position: absolute;
+    bottom: 445px;
+    left: 367px;
+}
+
+#seven {
+    background-color: white;
+    width: 310px;
+    height: 45px;
+    text-align: center;
+    border: 5px solid black;
+    position: absolute;
+    bottom: 667px;
+    left: 514px;
+}
+
+
+#eight {
+    background-color: white;
+    width: 203px;
+    height: 122px;
+    text-align: center;
+    border: 5px solid black;
+    position: absolute;
+    bottom: 540px;
+    left: 621px;
+}
+
+#nine {
+    background-color: indigo;
+    width: 101px;
+    height: 122px;
+    text-align: center;
+    border: 5px solid black;
+    position: absolute;
+    bottom: 540px;
+    left: 513px;
+}
+#name {
+    color: white;
+    background-color: black;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    text-align: center;
+    border: 5px solid black;
+    position: absolute;
+    bottom: 490px;
+    left: 90px;
+    z-index: 1;
+}

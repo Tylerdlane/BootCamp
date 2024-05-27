@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1:hover {
+    background-color: purple;
+
+}
+button:hover {
+    color: red;
+    
+}
+/* this :hover gives the elements different colors when the mouse is hovering over them */
+
+
+input:focus {
+    padding-bottom: 100px;
+    
+}
+input:focus {
+    background-color: red;
+}
+/* Changes the color and padding of the element when selected */
+
+
+h1:active {
+    font-size: 100px;
+}
+button:active {
+    background-color: burlywood;
+    font-size: 40px;
+    
+}
+/* Similar to :focus but it doesn't persist when clicked */
+
+
+#button :hover {
+color: blue;
+font-stretch: expanded;
+}
+/* when targeting an ID make sure to put a space in between #ID and :hover */
+
+
+div#button :focus {
+    padding: 40px;
+    color: whitesmoke;
+    font-stretch: expanded;
+    background-color: midnightblue;
+    position: relative;
+    left: 40px;
+    }
+/* setting the position to relative and specify left: #px,#em,#% will shift the button to the right */
+
+
+div#button {
+    position: fixed;
+    right:80px;
+}
+/* This is moving and setting our New Button in a fixed position */

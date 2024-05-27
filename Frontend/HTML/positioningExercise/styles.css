@@ -1,0 +1,30 @@
+.box {
+   height: 100px;
+   width: 100px;
+   position: absolute;
+   text-align: center;
+   line-height: 100px;
+}
+ .container {
+    height: 300px;
+    width: 300px;
+    background: grey;
+    position: relative;
+ }
+
+ .innerdiv {
+    background: red;
+    top: 0;
+    left: 0;
+    
+ }
+ .innerdiv1 {
+   background: green;
+   top: 0;
+   right: 0;
+ }
+.innerdiv2 {
+   background: blue;
+   bottom: 0;
+   left: 0;
+}

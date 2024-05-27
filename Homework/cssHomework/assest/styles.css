@@ -1,0 +1,30 @@
+
+h1 {
+    font-size: 1em; 
+    padding: 2em;
+    color: silver;
+    background-color: black;
+}
+p {
+    font-size: 1em; 
+    padding: 2em;
+    color: rgb(2, 18, 92);
+    background-color: rgb(134, 16, 16);
+}
+div {
+    font-size: 1em; 
+    padding: 2em;
+    color: rgb(218, 108, 5);
+    background-color: rgb(21, 0, 95);
+}
+div {
+    font-size: 3em;
+    padding: 1em;
+}
+.fruit {
+   border: 5px solid green;  
+}
+#second {
+    border: red solid;
+    margin: 10%;
+}
